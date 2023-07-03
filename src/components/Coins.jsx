@@ -27,7 +27,7 @@ const Coins = () => {
     setLoading(true);
   };
 
-  const btns = new Array(100).fill(1);
+  const btns = new Array(99).fill(1);
 
   useEffect(() => {
     const fetchCoins = async () => {
